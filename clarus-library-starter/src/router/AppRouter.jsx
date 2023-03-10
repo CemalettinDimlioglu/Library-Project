@@ -11,7 +11,9 @@
   import About from "../pages/about/About";
 
   const AppRouter = () => {
-    const [currentUser, setCurrentUser]=useState(false);
+    const [currentUser, setCurrentUser]=useState(
+      sessionStorage.getItem("user") ||false
+    );
     return (
       <BrowserRouter>
         <Navbar currentUser={currentUser} />
