@@ -21,7 +21,7 @@
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login setCurrentUser={setCurrentUser}/>} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/Register" element={<Register />} />
           {/* <Route path="/about" element={<PrivateRouter />}>
           <Route path="" element={<About />} />
         </Route>
