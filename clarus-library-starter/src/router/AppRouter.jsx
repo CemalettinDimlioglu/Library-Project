@@ -14,7 +14,7 @@
     const [currentUser, setCurrentUser]=useState(false);
     return (
       <BrowserRouter>
-        <Navbar />
+        <Navbar currentUser={currentUser} />
         <GlobalStyles />
         <Routes>
           <Route path="/" element={<Home />} />

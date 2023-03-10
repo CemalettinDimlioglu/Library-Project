@@ -20,7 +20,7 @@ const Login = ({ setCurrentUser }) => {
   return (
     <LoginContainer>
       <FormContainer>
-        <Header>Login Here</Header>
+        <Header >Login Here</Header>
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput type="text" placeholder="UserName" required />
           <StyledInput type="password" placeholder="Password" required />
